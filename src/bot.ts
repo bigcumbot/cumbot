@@ -28,7 +28,7 @@ bot.command('help', (ctx) => {
   );
 });
 
-bot.on('text', (ctx) => {
+/*bot.on('text', (ctx) => {
   const correctedText = correctSpelling(ctx.message.text);
   if (correctedText !== false) {
     ctx.reply(`Pwease, write cowwectly 🥺\n\n<i>${correctedText}</i>`, {
@@ -36,6 +36,6 @@ bot.on('text', (ctx) => {
       parse_mode: 'HTML'
     });
   }
-});
+});*/
 
 bot.launch();
